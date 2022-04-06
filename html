@@ -1,0 +1,12 @@
+#從Stack Overflow提取問題並找到最佳解答
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+url = "https://stackoverflow.com/questions/62964559/how-to-fit-nlp-in-cnn-model"
+html = urlopen(url).read()
+soupified = BeautifulSoup(html,"html.parser")
+question = soupified.find("div",{"class":"question"})
+questiontext = question.find("div",{"class":"post-text"})
+print("Question: \n",questiontext.get_text().strip())
+answer = soupified.find("div",{"class":"answer"})
+answertext = answer.find("div",{"class":"post-text"})
+print("Question: \n", answertext.get_text().strip())
