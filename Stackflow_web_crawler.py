@@ -1,3 +1,5 @@
+'''Author: Rita Lin 2022/04/07 特別感謝 Sean Lee 協助debug'''
+
 #從Stack Overflow 提取問題並找到最佳解答, 讓我們來看看如何在NLP上使用CNN模型? (這是個好問題)
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
