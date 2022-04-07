@@ -198,4 +198,4 @@ This step is useful personally as sometimes later errors are manifestation of ea
 For a good library, typically their error messages are helpful. Have you tried what the error messages suggest and how did that go?
 '''
 
-#Rita Lin 2022/04/07 特別感謝Sean L
+#Rita Lin 2022/04/07 特別感謝Sean Lee
